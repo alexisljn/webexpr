@@ -43,7 +43,7 @@ function App() {
       const index = randomIndex();
 
       grid[i] = []
-      for (let j = 0; j < 29; j++) {
+      for (let j = 0; j < 30; j++) {
 
         if (j === index) {
           console.log(words[i]);
